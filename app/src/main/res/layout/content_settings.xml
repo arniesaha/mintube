@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:orientation="vertical"
-    tools:context="com.shapps.mintubeapp.SettingsActivity"
+    tools:context="com.foshizzle.shrinktube.SettingsActivity"
     tools:showIn="@layout/activity_settings">
 
     <TextView
@@ -198,31 +198,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
-    </LinearLayout>
-
-    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Learn More"
-        android:textStyle="bold"
-        android:textColor="#4285f4"/>
-    <LinearLayout
-        android:id="@+id/about"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="2dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="30dp">
-        <TextView
-            android:layout_weight="3"
-            android:gravity="center|left"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textColor="#353535"
-            android:textSize="15dp"
-            android:text="About"/>
     </LinearLayout>
 
 

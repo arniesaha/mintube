@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shapps.mintubeapp">
+    package="com.foshizzle.shrinktube">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -13,9 +13,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".CustomVolley.AppController">
+        android:name="com.foshizzle.shrinktube.CustomVolley.AppController">
         <activity
-            android:name=".MainActivity"
+            android:name="com.foshizzle.shrinktube.MainActivity"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -36,11 +36,11 @@
             android:theme="@style/AppTheme.NoActionBar" /
         -->
         <activity
-            android:name=".GetPermission"
-            android:parentActivityName=".YTubeView"
+            android:name="com.foshizzle.shrinktube.GetPermission"
+            android:parentActivityName="com.foshizzle.shrinktube.YTubeView"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".YTubeView"
+            android:name="com.foshizzle.shrinktube.YTubeView"
             android:label="@string/add_ytube"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
@@ -76,22 +76,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.foshizzle.shrinktube.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".FullscreenWebPlayer"
+            android:name="com.foshizzle.shrinktube.FullscreenWebPlayer"
             android:excludeFromRecents="true"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
         <activity
-            android:name=".RateOrStar"
+            android:name="com.foshizzle.shrinktube.RateOrStar"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"/>
 
         <service
-            android:name=".PlayerService"
+            android:name="com.foshizzle.shrinktube.PlayerService"
             android:exported="true" />
 
         <meta-data

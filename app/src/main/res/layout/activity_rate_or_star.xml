@@ -7,16 +7,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
 
-    <Button
-        android:id="@+id/star_on_GitHub"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="Star on GitHub"
-        android:backgroundTint="#737373"
-        android:textColor="#fff"
-        android:layout_alignTop="@+id/rate_on_playstore"
-        android:layout_toRightOf="@+id/rate_on_playstore" />
 
     <Button
         android:layout_marginTop="10dp"
@@ -40,27 +30,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
 
-    <Button
-        android:id="@+id/issue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="Create an Issue on GitHub"
-        android:backgroundTint="#737373"
-        android:textColor="#fff"
-        android:layout_marginTop="10dp"
-        android:layout_below="@+id/textView1"
-        android:layout_alignParentLeft="true" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Facing any Problem / Want any Feature ?"
-        android:textSize="20dp"
-        android:layout_below="@+id/star_on_GitHub"
-        android:layout_marginTop="20dp"
-        android:layout_alignParentLeft="true"/>
+
 
 
     <Button
@@ -72,7 +43,7 @@
         android:backgroundTint="#02425e"
         android:textColor="#fff"
         android:textAllCaps="false"
-        android:layout_below="@+id/issue"
+        android:layout_below="@+id/rate_on_playstore"
         android:layout_toLeftOf="@+id/never"
         android:layout_toStartOf="@+id/never" />
 
